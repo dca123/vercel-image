@@ -5,7 +5,16 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Welcome to Astro.">
   <main>
-    <h1>Trip to Wadduwa pics</h1>
+    <h1>Trip to Wadduwa</h1>
     <NextImage src="/wadduwa-01.jpg" height={600} width={600} />
+    <caption>Local Image (Original - 8 MB)</caption>
+    <br />
+    <br />
+    <NextImage
+      src="https://images.unsplash.com/photo-1673868555935-5cddc415aca6?ixlib=rb-4.0.3&dl=sam-quek-NUBUaowQmMs-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+      height={600}
+      width={600}
+    />
+    <caption>Remote Image (Original - 5 MB)</caption>
   </main>
 </Layout>
