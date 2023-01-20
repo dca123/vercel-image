@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/vercel': file:astrojs-vercel-3.0.0-beta.1.tgz
+  '@astrojs/vercel': file:astrojs-vercel-3.0.1-beta.1.tgz
   astro: ^1.9.0
 
 dependencies:
-  '@astrojs/vercel': file:astrojs-vercel-3.0.0-beta.1.tgz_astro@1.9.2
+  '@astrojs/vercel': file:astrojs-vercel-3.0.1-beta.1.tgz_astro@1.9.2
   astro: 1.9.2
 
 packages:
@@ -3737,9 +3737,9 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
 
-  file:astrojs-vercel-3.0.0-beta.1.tgz_astro@1.9.2:
-    resolution: {integrity: sha512-jmBdXT5IIHmaevSZxTJo/qiaekWiGVzQvVfbZeekp2rRo/IQyekRGK4zsWFzXcc4bzL/GycPy0l7ivO9T4kcQA==, tarball: file:astrojs-vercel-3.0.0-beta.1.tgz}
-    id: file:astrojs-vercel-3.0.0-beta.1.tgz
+  file:astrojs-vercel-3.0.1-beta.1.tgz_astro@1.9.2:
+    resolution: {integrity: sha512-KK6RJBnSlV/BVDntUfolESuoctEMy9q2fVWUuYTvtBxDP9QmnpIDI9QZORp8pZZ4qJxwhsgQt4YGOsG1I61Nng==, tarball: file:astrojs-vercel-3.0.1-beta.1.tgz}
+    id: file:astrojs-vercel-3.0.1-beta.1.tgz
     name: '@astrojs/vercel'
     version: 3.0.0-beta.1
     peerDependencies:
