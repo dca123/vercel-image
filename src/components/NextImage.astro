@@ -1,0 +1,15 @@
+---
+export interface Props {
+  width: number;
+  height: number;
+  src: string;
+}
+const props = Astro.props;
+const src = props.src;
+
+const srcString = import.meta.env.PROD
+  ? `/_vercel/image?url=${encodeURIComponent(src)}&w=${props.width}&q=75`
+  : src;
+---
+
+<img {...props} width={props.width} height={props.height} src={srcString} />

@@ -1,14 +1,11 @@
 ---
+import NextImage from "../components/NextImage.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
     <h1>Trip to Wadduwa pics</h1>
-    <img src="/wadduwa-01.jpg" alt="Wadduwa Beach" />
-    <img
-      src="/_vercel/image?url=/wadduwa-01.jpg&w=600&q=75"
-      alt="Wadduwa Beach"
-    />
+    <NextImage src="/wadduwa-01.jpg" height={600} width={600} />
   </main>
 </Layout>
